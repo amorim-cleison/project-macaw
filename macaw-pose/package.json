@@ -1,0 +1,24 @@
+{
+  "name": "macaw-pose",
+  "version": "0.1.0",
+  "description": "<TODO>",
+  "author": "Cleison Amorim",
+  "license": "GPL-3.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "npx tsc",
+    "start:dev": "npx tsc --watch"
+  },
+  "dependencies": {
+    "@mediapipe/holistic": "^0.5.1675471629",
+    "macaw-commons": "file:../macaw-commons"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.27",
+    "typescript": "^5.4.2"
+  }
+}

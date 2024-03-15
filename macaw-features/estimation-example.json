@@ -1,0 +1,6129 @@
+{
+    "image": {
+        "GLctxObject": {
+            "handle": 3,
+            "attributes": {
+                "alpha": true,
+                "depth": true,
+                "stencil": false,
+                "antialias": false,
+                "premultipliedAlpha": true,
+                "preserveDrawingBuffer": false,
+                "powerPreference": "default",
+                "failIfMajorPerformanceCaveat": false,
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "enableExtensionsByDefault": 1,
+                "explicitSwapControl": 0,
+                "proxyContextToMainThread": 0,
+                "renderViaOffscreenBackBuffer": 0
+            },
+            "version": 2,
+            "GLctx": {
+                "dibvbi": null,
+                "mdibvbi": null,
+                "disjointTimerQueryExt": null,
+                "multiDrawWebgl": {},
+                "currentProgram": {
+                    "name": 2995,
+                    "maxUniformBlockNameLength": 0,
+                    "maxAttributeLength": 0,
+                    "maxUniformLength": 0,
+                    "uniformIdCounter": 15,
+                    "uniformLocsById": {
+                        "1": {},
+                        "2": 1,
+                        "3": 2,
+                        "4": 3,
+                        "5": 4,
+                        "6": 5,
+                        "7": 6,
+                        "8": 7,
+                        "9": 8,
+                        "10": 9,
+                        "11": 10,
+                        "12": 11,
+                        "13": {},
+                        "14": {}
+                    },
+                    "uniformSizeAndIdsByName": {
+                        "positions": [
+                            12,
+                            1
+                        ],
+                        "shared_int4s": [
+                            1,
+                            13
+                        ],
+                        "src_tensor_tex2darr": [
+                            1,
+                            14
+                        ]
+                    },
+                    "uniformArrayNamesById": {
+                        "1": "positions",
+                        "2": "positions",
+                        "3": "positions",
+                        "4": "positions",
+                        "5": "positions",
+                        "6": "positions",
+                        "7": "positions",
+                        "8": "positions",
+                        "9": "positions",
+                        "10": "positions",
+                        "11": "positions",
+                        "12": "positions",
+                        "13": "shared_int4s",
+                        "14": "src_tensor_tex2darr"
+                    }
+                },
+                "currentElementArrayBufferBinding": 0,
+                "currentArrayBufferBinding": 0
+            },
+            "initExtensionsDone": true,
+            "maxVertexAttribs": 16,
+            "clientBuffers": [
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                },
+                {
+                    "enabled": false,
+                    "clientside": false,
+                    "size": 0,
+                    "type": 0,
+                    "normalized": 0,
+                    "stride": 0,
+                    "ptr": 0,
+                    "vertexAttribPointerAdaptor": null
+                }
+            ],
+            "tempVertexBufferCounters1": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "tempVertexBufferCounters2": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "tempVertexBuffers1": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            "tempVertexBuffers2": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            "tempIndexBuffers": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "leftHandLandmarks": [
+        {
+            "x": 0.610856294631958,
+            "y": 0.4771811366081238,
+            "z": 3.509669355139522e-8
+        },
+        {
+            "x": 0.577853798866272,
+            "y": 0.45749491453170776,
+            "z": 0.0030019646510481834
+        },
+        {
+            "x": 0.5536698698997498,
+            "y": 0.4241834282875061,
+            "z": 0.002646802458912134
+        },
+        {
+            "x": 0.5393641591072083,
+            "y": 0.3931712508201599,
+            "z": 0.0009611924760974944
+        },
+        {
+            "x": 0.5301989316940308,
+            "y": 0.36956772208213806,
+            "z": -0.0010542110539972782
+        },
+        {
+            "x": 0.5471938848495483,
+            "y": 0.3763901889324188,
+            "z": -0.0016982945380732417
+        },
+        {
+            "x": 0.528930127620697,
+            "y": 0.3189588189125061,
+            "z": -0.007588065229356289
+        },
+        {
+            "x": 0.5217077136039734,
+            "y": 0.2851085066795349,
+            "z": -0.010987472720444202
+        },
+        {
+            "x": 0.5172846913337708,
+            "y": 0.25904029607772827,
+            "z": -0.012797106988728046
+        },
+        {
+            "x": 0.5626081824302673,
+            "y": 0.35722875595092773,
+            "z": -0.007289277855306864
+        },
+        {
+            "x": 0.544532060623169,
+            "y": 0.2907361090183258,
+            "z": -0.011506122536957264
+        },
+        {
+            "x": 0.5355956554412842,
+            "y": 0.2513505220413208,
+            "z": -0.014601105824112892
+        },
+        {
+            "x": 0.5299302935600281,
+            "y": 0.2233630120754242,
+            "z": -0.016923751682043076
+        },
+        {
+            "x": 0.581595242023468,
+            "y": 0.34777435660362244,
+            "z": -0.01290985755622387
+        },
+        {
+            "x": 0.5665897727012634,
+            "y": 0.2859323024749756,
+            "z": -0.017701726406812668
+        },
+        {
+            "x": 0.558202862739563,
+            "y": 0.24654999375343323,
+            "z": -0.021174419671297073
+        },
+        {
+            "x": 0.5517868399620056,
+            "y": 0.2196865975856781,
+            "z": -0.023700017482042313
+        },
+        {
+            "x": 0.603466272354126,
+            "y": 0.34645628929138184,
+            "z": -0.0181752759963274
+        },
+        {
+            "x": 0.598876416683197,
+            "y": 0.29835423827171326,
+            "z": -0.022189170122146606
+        },
+        {
+            "x": 0.5937583446502686,
+            "y": 0.26904770731925964,
+            "z": -0.02324901893734932
+        },
+        {
+            "x": 0.5882670879364014,
+            "y": 0.24671262502670288,
+            "z": -0.023700017482042313
+        }
+    ],
+    "faceLandmarks": [
+        {
+            "x": 0.4353858232498169,
+            "y": 0.5485570430755615,
+            "z": -0.008937968872487545
+        },
+        {
+            "x": 0.44376587867736816,
+            "y": 0.5204361081123352,
+            "z": -0.021688446402549744
+        },
+        {
+            "x": 0.4338131844997406,
+            "y": 0.5314360857009888,
+            "z": -0.010662936605513096
+        },
+        {
+            "x": 0.4301959276199341,
+            "y": 0.48559385538101196,
+            "z": -0.02138081006705761
+        },
+        {
+            "x": 0.44371849298477173,
+            "y": 0.5094926357269287,
+            "z": -0.023446375504136086
+        },
+        {
+            "x": 0.4395829737186432,
+            "y": 0.4952649474143982,
+            "z": -0.022347670048475266
+        },
+        {
+            "x": 0.42532116174697876,
+            "y": 0.45715227723121643,
+            "z": -0.013656909577548504
+        },
+        {
+            "x": 0.373701274394989,
+            "y": 0.45732301473617554,
+            "z": -0.02324860729277134
+        },
+        {
+            "x": 0.42027345299720764,
+            "y": 0.4305136501789093,
+            "z": -0.012052798643708229
+        },
+        {
+            "x": 0.4199901521205902,
+            "y": 0.41551703214645386,
+            "z": -0.013558026403188705
+        },
+        {
+            "x": 0.4108772575855255,
+            "y": 0.35088396072387695,
+            "z": -0.010553065687417984
+        },
+        {
+            "x": 0.4352758526802063,
+            "y": 0.5527219772338867,
+            "z": -0.0081194331869483
+        },
+        {
+            "x": 0.43423816561698914,
+            "y": 0.5565515756607056,
+            "z": -0.0066087134182453156
+        },
+        {
+            "x": 0.43276020884513855,
+            "y": 0.5595705509185791,
+            "z": -0.0037575727328658104
+        },
+        {
+            "x": 0.43241432309150696,
+            "y": 0.5596823692321777,
+            "z": -0.0037136245518922806
+        },
+        {
+            "x": 0.4339238405227661,
+            "y": 0.5639590620994568,
+            "z": -0.003318090457469225
+        },
+        {
+            "x": 0.43463149666786194,
+            "y": 0.5691302418708801,
+            "z": -0.004062463529407978
+        },
+        {
+            "x": 0.434505820274353,
+            "y": 0.5748884677886963,
+            "z": -0.0031780055724084377
+        },
+        {
+            "x": 0.4306304454803467,
+            "y": 0.5990118980407715,
+            "z": 0.0006712403846904635
+        },
+        {
+            "x": 0.44114017486572266,
+            "y": 0.5262085199356079,
+            "z": -0.019403139129281044
+        },
+        {
+            "x": 0.4322407841682434,
+            "y": 0.5282915234565735,
+            "z": -0.016546504572033882
+        },
+        {
+            "x": 0.3262943625450134,
+            "y": 0.41134363412857056,
+            "z": -0.020534805953502655
+        },
+        {
+            "x": 0.3928917944431305,
+            "y": 0.4641423523426056,
+            "z": -0.017436455935239792
+        },
+        {
+            "x": 0.3863666355609894,
+            "y": 0.4667283594608307,
+            "z": -0.020721586421132088
+        },
+        {
+            "x": 0.379582017660141,
+            "y": 0.4676511883735657,
+            "z": -0.02289702370762825
+        },
+        {
+            "x": 0.36966830492019653,
+            "y": 0.4624386131763458,
+            "z": -0.02408362552523613
+        },
+        {
+            "x": 0.39843419194221497,
+            "y": 0.4598093628883362,
+            "z": -0.013656909577548504
+        },
+        {
+            "x": 0.3830719292163849,
+            "y": 0.4318994879722595,
+            "z": -0.024479158222675323
+        },
+        {
+            "x": 0.3904383182525635,
+            "y": 0.4314238727092743,
+            "z": -0.019908543676137924
+        },
+        {
+            "x": 0.37603577971458435,
+            "y": 0.43560364842414856,
+            "z": -0.026478800922632217
+        },
+        {
+            "x": 0.37101227045059204,
+            "y": 0.4415159225463867,
+            "z": -0.026742491871118546
+        },
+        {
+            "x": 0.362758070230484,
+            "y": 0.47261378169059753,
+            "z": -0.024017702788114548
+        },
+        {
+            "x": 0.4075489640235901,
+            "y": 0.6248974800109863,
+            "z": -0.0061747245490550995
+        },
+        {
+            "x": 0.3705407977104187,
+            "y": 0.45437419414520264,
+            "z": -0.023358479142189026
+        },
+        {
+            "x": 0.3275611698627472,
+            "y": 0.4682692289352417,
+            "z": -0.017733106389641762
+        },
+        {
+            "x": 0.35205817222595215,
+            "y": 0.4667024314403534,
+            "z": -0.02434731461107731
+        },
+        {
+            "x": 0.3975312113761902,
+            "y": 0.5182305574417114,
+            "z": -0.01932622864842415
+        },
+        {
+            "x": 0.4296939969062805,
+            "y": 0.550555944442749,
+            "z": -0.012701035477221012
+        },
+        {
+            "x": 0.4289708733558655,
+            "y": 0.5592073798179626,
+            "z": -0.009877362288534641
+        },
+        {
+            "x": 0.42198964953422546,
+            "y": 0.5573349595069885,
+            "z": -0.014898446388542652
+        },
+        {
+            "x": 0.4155353307723999,
+            "y": 0.5632333755493164,
+            "z": -0.01538187637925148
+        },
+        {
+            "x": 0.4229017198085785,
+            "y": 0.5627577304840088,
+            "z": -0.012184643186628819
+        },
+        {
+            "x": 0.41723349690437317,
+            "y": 0.5658608078956604,
+            "z": -0.012228592298924923
+        },
+        {
+            "x": 0.40199014544487,
+            "y": 0.5923888087272644,
+            "z": -0.012151682749390602
+        },
+        {
+            "x": 0.4394577145576477,
+            "y": 0.5219877362251282,
+            "z": -0.023710064589977264
+        },
+        {
+            "x": 0.43856126070022583,
+            "y": 0.5114775896072388,
+            "z": -0.025797605514526367
+        },
+        {
+            "x": 0.36041459441185,
+            "y": 0.43573033809661865,
+            "z": -0.032148122787475586
+        },
+        {
+            "x": 0.4057696461677551,
+            "y": 0.4852319359779358,
+            "z": -0.015568656846880913
+        },
+        {
+            "x": 0.41720128059387207,
+            "y": 0.5236243009567261,
+            "z": -0.02146870456635952
+        },
+        {
+            "x": 0.41438665986061096,
+            "y": 0.5170695185661316,
+            "z": -0.020710598677396774
+        },
+        {
+            "x": 0.3743942975997925,
+            "y": 0.5217399597167969,
+            "z": -0.026061294600367546
+        },
+        {
+            "x": 0.4348345696926117,
+            "y": 0.4977530241012573,
+            "z": -0.024632977321743965
+        },
+        {
+            "x": 0.3795967996120453,
+            "y": 0.4171406626701355,
+            "z": -0.030324270948767662
+        },
+        {
+            "x": 0.3689364790916443,
+            "y": 0.4247164726257324,
+            "z": -0.03254365548491478
+        },
+        {
+            "x": 0.3398396670818329,
+            "y": 0.3891763389110565,
+            "z": -0.025160355493426323
+        },
+        {
+            "x": 0.4099194407463074,
+            "y": 0.42099636793136597,
+            "z": -0.018249498680233955
+        },
+        {
+            "x": 0.3968535363674164,
+            "y": 0.4347498416900635,
+            "z": -0.015206084586679935
+        },
+        {
+            "x": 0.39729657769203186,
+            "y": 0.5840591788291931,
+            "z": -0.014931407757103443
+        },
+        {
+            "x": 0.33015379309654236,
+            "y": 0.5857542753219604,
+            "z": 0.001464025117456913
+        },
+        {
+            "x": 0.4213051497936249,
+            "y": 0.5288092494010925,
+            "z": -0.01693105325102806
+        },
+        {
+            "x": 0.4256684482097626,
+            "y": 0.5304163098335266,
+            "z": -0.01356901228427887
+        },
+        {
+            "x": 0.4062744081020355,
+            "y": 0.5722626447677612,
+            "z": -0.012909789569675922
+        },
+        {
+            "x": 0.4081140160560608,
+            "y": 0.5710325837135315,
+            "z": -0.011986876837909222
+        },
+        {
+            "x": 0.3639599084854126,
+            "y": 0.41886067390441895,
+            "z": -0.0324777327477932
+        },
+        {
+            "x": 0.4149135947227478,
+            "y": 0.5283344388008118,
+            "z": -0.018721941858530045
+        },
+        {
+            "x": 0.39311885833740234,
+            "y": 0.41483378410339355,
+            "z": -0.025380097329616547
+        },
+        {
+            "x": 0.39170360565185547,
+            "y": 0.4062384366989136,
+            "z": -0.027072101831436157
+        },
+        {
+            "x": 0.376985639333725,
+            "y": 0.36017322540283203,
+            "z": -0.025995371863245964
+        },
+        {
+            "x": 0.3534092605113983,
+            "y": 0.4048011004924774,
+            "z": -0.029708996415138245
+        },
+        {
+            "x": 0.38663244247436523,
+            "y": 0.38548383116722107,
+            "z": -0.02720394730567932
+        },
+        {
+            "x": 0.35418808460235596,
+            "y": 0.4325021803379059,
+            "z": -0.03102744184434414
+        },
+        {
+            "x": 0.3406657576560974,
+            "y": 0.4225797653198242,
+            "z": -0.026149190962314606
+        },
+        {
+            "x": 0.42963117361068726,
+            "y": 0.555182158946991,
+            "z": -0.01192095410078764
+        },
+        {
+            "x": 0.42290952801704407,
+            "y": 0.5602140426635742,
+            "z": -0.013711844570934772
+        },
+        {
+            "x": 0.41664382815361023,
+            "y": 0.564463198184967,
+            "z": -0.014052443206310272
+        },
+        {
+            "x": 0.4219105541706085,
+            "y": 0.5303605794906616,
+            "z": -0.014843511395156384
+        },
+        {
+            "x": 0.40739864110946655,
+            "y": 0.5718991756439209,
+            "z": -0.012283527292311192
+        },
+        {
+            "x": 0.41127443313598633,
+            "y": 0.5722343921661377,
+            "z": -0.011986876837909222
+        },
+        {
+            "x": 0.40863287448883057,
+            "y": 0.5708647966384888,
+            "z": -0.01170121319591999
+        },
+        {
+            "x": 0.4281054437160492,
+            "y": 0.5245460867881775,
+            "z": -0.02242457866668701
+        },
+        {
+            "x": 0.4171549081802368,
+            "y": 0.5668391585350037,
+            "z": -0.010564053431153297
+        },
+        {
+            "x": 0.4225086569786072,
+            "y": 0.5641553997993469,
+            "z": -0.009399425238370895
+        },
+        {
+            "x": 0.42798036336898804,
+            "y": 0.561751127243042,
+            "z": -0.007377807050943375
+        },
+        {
+            "x": 0.4236021339893341,
+            "y": 0.601919412612915,
+            "z": -0.003279635915532708
+        },
+        {
+            "x": 0.4285466969013214,
+            "y": 0.5777679681777954,
+            "z": -0.007443729788064957
+        },
+        {
+            "x": 0.4289868474006653,
+            "y": 0.5715904235839844,
+            "z": -0.0081798629835248
+        },
+        {
+            "x": 0.42859363555908203,
+            "y": 0.5659999251365662,
+            "z": -0.007366820238530636
+        },
+        {
+            "x": 0.42783886194229126,
+            "y": 0.5621145367622375,
+            "z": -0.007410768419504166
+        },
+        {
+            "x": 0.41701340675354004,
+            "y": 0.5672025084495544,
+            "z": -0.010536585003137589
+        },
+        {
+            "x": 0.41671469807624817,
+            "y": 0.5695226192474365,
+            "z": -0.010701390914618969
+        },
+        {
+            "x": 0.41607797145843506,
+            "y": 0.5729049444198608,
+            "z": -0.011503446847200394
+        },
+        {
+            "x": 0.415126770734787,
+            "y": 0.57670658826828,
+            "z": -0.011690226383507252
+        },
+        {
+            "x": 0.40770500898361206,
+            "y": 0.5600472092628479,
+            "z": -0.016788220033049583
+        },
+        {
+            "x": 0.31521540880203247,
+            "y": 0.5235604047775269,
+            "z": 0.0005867774016223848
+        },
+        {
+            "x": 0.4376496374607086,
+            "y": 0.528766393661499,
+            "z": -0.013832702301442623
+        },
+        {
+            "x": 0.4127523899078369,
+            "y": 0.5692154169082642,
+            "z": -0.011393575929105282
+        },
+        {
+            "x": 0.4123278856277466,
+            "y": 0.570305585861206,
+            "z": -0.01153640728443861
+        },
+        {
+            "x": 0.427476704120636,
+            "y": 0.5341199040412903,
+            "z": -0.013250388205051422
+        },
+        {
+            "x": 0.4153382480144501,
+            "y": 0.5342324376106262,
+            "z": -0.013371245935559273
+        },
+        {
+            "x": 0.42675337195396423,
+            "y": 0.5322890877723694,
+            "z": -0.013503090478479862
+        },
+        {
+            "x": 0.3996219336986542,
+            "y": 0.493254691362381,
+            "z": -0.017535340040922165
+        },
+        {
+            "x": 0.39060476422309875,
+            "y": 0.5037933588027954,
+            "z": -0.02144673280417919
+        },
+        {
+            "x": 0.4119417667388916,
+            "y": 0.5219893455505371,
+            "z": -0.018458252772688866
+        },
+        {
+            "x": 0.35666337609291077,
+            "y": 0.37198445200920105,
+            "z": -0.02720394730567932
+        },
+        {
+            "x": 0.36845630407333374,
+            "y": 0.3920747637748718,
+            "z": -0.029796892777085304
+        },
+        {
+            "x": 0.3764677047729492,
+            "y": 0.4092581868171692,
+            "z": -0.031049417331814766
+        },
+        {
+            "x": 0.4079572856426239,
+            "y": 0.5974478721618652,
+            "z": -0.010789288207888603
+        },
+        {
+            "x": 0.40797731280326843,
+            "y": 0.40637722611427307,
+            "z": -0.021237976849079132
+        },
+        {
+            "x": 0.4015696048736572,
+            "y": 0.38303709030151367,
+            "z": -0.02146870456635952
+        },
+        {
+            "x": 0.39446207880973816,
+            "y": 0.35372912883758545,
+            "z": -0.019941505044698715
+        },
+        {
+            "x": 0.3735599219799042,
+            "y": 0.46642163395881653,
+            "z": -0.02390783093869686
+        },
+        {
+            "x": 0.3537015914916992,
+            "y": 0.483641654253006,
+            "z": -0.02491864003241062
+        },
+        {
+            "x": 0.4021998941898346,
+            "y": 0.45557430386543274,
+            "z": -0.011679239571094513
+        },
+        {
+            "x": 0.36252179741859436,
+            "y": 0.44934317469596863,
+            "z": -0.02755553461611271
+        },
+        {
+            "x": 0.41047078371047974,
+            "y": 0.47704148292541504,
+            "z": -0.01525003183633089
+        },
+        {
+            "x": 0.42390719056129456,
+            "y": 0.5184386372566223,
+            "z": -0.02384190820157528
+        },
+        {
+            "x": 0.34517183899879456,
+            "y": 0.493705153465271,
+            "z": -0.024632977321743965
+        },
+        {
+            "x": 0.36120179295539856,
+            "y": 0.4905874729156494,
+            "z": -0.026127217337489128
+        },
+        {
+            "x": 0.37223178148269653,
+            "y": 0.492739200592041,
+            "z": -0.024808770045638084
+        },
+        {
+            "x": 0.38583242893218994,
+            "y": 0.48770689964294434,
+            "z": -0.020391974598169327
+        },
+        {
+            "x": 0.3949046730995178,
+            "y": 0.4803268611431122,
+            "z": -0.016436634585261345
+        },
+        {
+            "x": 0.4019564986228943,
+            "y": 0.4732823669910431,
+            "z": -0.014052443206310272
+        },
+        {
+            "x": 0.42000672221183777,
+            "y": 0.461093932390213,
+            "z": -0.01571148820221424
+        },
+        {
+            "x": 0.34897738695144653,
+            "y": 0.5204277038574219,
+            "z": -0.024479158222675323
+        },
+        {
+            "x": 0.3553597927093506,
+            "y": 0.4500703811645508,
+            "z": -0.02889595553278923
+        },
+        {
+            "x": 0.4387187957763672,
+            "y": 0.5269913077354431,
+            "z": -0.021073170006275177
+        },
+        {
+            "x": 0.4093233644962311,
+            "y": 0.4972653388977051,
+            "z": -0.01630478911101818
+        },
+        {
+            "x": 0.31276935338974,
+            "y": 0.4655866324901581,
+            "z": -0.006048373878002167
+        },
+        {
+            "x": 0.4076324999332428,
+            "y": 0.46588853001594543,
+            "z": -0.012481293641030788
+        },
+        {
+            "x": 0.40867915749549866,
+            "y": 0.5224088430404663,
+            "z": -0.014173300936818123
+        },
+        {
+            "x": 0.3668222427368164,
+            "y": 0.4555763900279999,
+            "z": -0.024105597287416458
+        },
+        {
+            "x": 0.4204164445400238,
+            "y": 0.5105142593383789,
+            "z": -0.02263333462178707
+        },
+        {
+            "x": 0.3206287622451782,
+            "y": 0.5542101860046387,
+            "z": 0.0017084870487451553
+        },
+        {
+            "x": 0.4017045199871063,
+            "y": 0.45160505175590515,
+            "z": -0.011382589116692543
+        },
+        {
+            "x": 0.4280264377593994,
+            "y": 0.5028128623962402,
+            "z": -0.024698898196220398
+        },
+        {
+            "x": 0.366754412651062,
+            "y": 0.612991988658905,
+            "z": -0.008608357049524784
+        },
+        {
+            "x": 0.3601272404193878,
+            "y": 0.6259344816207886,
+            "z": -0.0020023908000439405
+        },
+        {
+            "x": 0.3301604986190796,
+            "y": 0.5238110423088074,
+            "z": -0.013173478655517101
+        },
+        {
+            "x": 0.3525637984275818,
+            "y": 0.5991562604904175,
+            "z": -0.009377451613545418
+        },
+        {
+            "x": 0.33284375071525574,
+            "y": 0.44305557012557983,
+            "z": -0.021161068230867386
+        },
+        {
+            "x": 0.4050491750240326,
+            "y": 0.6371409296989441,
+            "z": -0.004251990467309952
+        },
+        {
+            "x": 0.4355427026748657,
+            "y": 0.5291298627853394,
+            "z": -0.01470067910850048
+        },
+        {
+            "x": 0.4036945700645447,
+            "y": 0.5068674087524414,
+            "z": -0.01674427092075348
+        },
+        {
+            "x": 0.3431352376937866,
+            "y": 0.4711753726005554,
+            "z": -0.023600194603204727
+        },
+        {
+            "x": 0.38122496008872986,
+            "y": 0.46013182401657104,
+            "z": -0.02223780006170273
+        },
+        {
+            "x": 0.3870190382003784,
+            "y": 0.4600057005882263,
+            "z": -0.020501844584941864
+        },
+        {
+            "x": 0.4099065661430359,
+            "y": 0.5745824575424194,
+            "z": -0.012272540479898453
+        },
+        {
+            "x": 0.3504715859889984,
+            "y": 0.5455151796340942,
+            "z": -0.02057875320315361
+        },
+        {
+            "x": 0.4149707853794098,
+            "y": 0.6450509428977966,
+            "z": 0.0024803276173770428
+        },
+        {
+            "x": 0.39044225215911865,
+            "y": 0.6428161859512329,
+            "z": -0.0016096035251393914
+        },
+        {
+            "x": 0.3771559000015259,
+            "y": 0.6369468569755554,
+            "z": -0.0021314886398613453
+        },
+        {
+            "x": 0.4159564673900604,
+            "y": 0.3813241422176361,
+            "z": -0.01284386683255434
+        },
+        {
+            "x": 0.4257962703704834,
+            "y": 0.639962911605835,
+            "z": 0.008905007503926754
+        },
+        {
+            "x": 0.3920897841453552,
+            "y": 0.4580487310886383,
+            "z": -0.01763422228395939
+        },
+        {
+            "x": 0.3969639837741852,
+            "y": 0.4550435245037079,
+            "z": -0.014645744115114212
+        },
+        {
+            "x": 0.40015578269958496,
+            "y": 0.4530586898326874,
+            "z": -0.012404385022819042
+        },
+        {
+            "x": 0.3474823832511902,
+            "y": 0.44991710782051086,
+            "z": -0.027423689141869545
+        },
+        {
+            "x": 0.39556440711021423,
+            "y": 0.44485485553741455,
+            "z": -0.01594221591949463
+        },
+        {
+            "x": 0.3895816206932068,
+            "y": 0.4431360960006714,
+            "z": -0.019315242767333984
+        },
+        {
+            "x": 0.3841099143028259,
+            "y": 0.44379329681396484,
+            "z": -0.022105954587459564
+        },
+        {
+            "x": 0.3784967064857483,
+            "y": 0.44656094908714294,
+            "z": -0.024017702788114548
+        },
+        {
+            "x": 0.3748096227645874,
+            "y": 0.4498176574707031,
+            "z": -0.02425941824913025
+        },
+        {
+            "x": 0.3178081214427948,
+            "y": 0.43536946177482605,
+            "z": -0.013019660487771034
+        },
+        {
+            "x": 0.37699535489082336,
+            "y": 0.45895805954933167,
+            "z": -0.023006893694400787
+        },
+        {
+            "x": 0.4338604807853699,
+            "y": 0.5388854742050171,
+            "z": -0.009108268655836582
+        },
+        {
+            "x": 0.41419073939323425,
+            "y": 0.5509622097015381,
+            "z": -0.015777410939335823
+        },
+        {
+            "x": 0.42264947295188904,
+            "y": 0.5271040797233582,
+            "z": -0.01838134415447712
+        },
+        {
+            "x": 0.42711523175239563,
+            "y": 0.542813241481781,
+            "z": -0.013074595481157303
+        },
+        {
+            "x": 0.4208082854747772,
+            "y": 0.4427289366722107,
+            "z": -0.011245250701904297
+        },
+        {
+            "x": 0.38026103377342224,
+            "y": 0.6245077252388,
+            "z": -0.00637798523530364
+        },
+        {
+            "x": 0.39203011989593506,
+            "y": 0.6321381330490112,
+            "z": -0.004916707053780556
+        },
+        {
+            "x": 0.4181232154369354,
+            "y": 0.6383141279220581,
+            "z": -0.0015079732984304428
+        },
+        {
+            "x": 0.34421488642692566,
+            "y": 0.6101142168045044,
+            "z": -0.0005054044886492193
+        },
+        {
+            "x": 0.39980193972587585,
+            "y": 0.44872602820396423,
+            "z": -0.013338284566998482
+        },
+        {
+            "x": 0.4200385510921478,
+            "y": 0.4806188941001892,
+            "z": -0.017985809594392776
+        },
+        {
+            "x": 0.42920809984207153,
+            "y": 0.6331422328948975,
+            "z": 0.004889239091426134
+        },
+        {
+            "x": 0.4033276438713074,
+            "y": 0.645638644695282,
+            "z": -0.0010938986670225859
+        },
+        {
+            "x": 0.3335140347480774,
+            "y": 0.5517915487289429,
+            "z": -0.010800275020301342
+        },
+        {
+            "x": 0.4223671555519104,
+            "y": 0.5645187497138977,
+            "z": -0.009465347044169903
+        },
+        {
+            "x": 0.42245370149612427,
+            "y": 0.567984938621521,
+            "z": -0.009696075692772865
+        },
+        {
+            "x": 0.4223751723766327,
+            "y": 0.5724573135375977,
+            "z": -0.010635469108819962
+        },
+        {
+            "x": 0.4218721389770508,
+            "y": 0.5780199766159058,
+            "z": -0.01057504117488861
+        },
+        {
+            "x": 0.4152687191963196,
+            "y": 0.6008018255233765,
+            "z": -0.00859737116843462
+        },
+        {
+            "x": 0.41211560368537903,
+            "y": 0.5691035985946655,
+            "z": -0.012536229565739632
+        },
+        {
+            "x": 0.41110143065452576,
+            "y": 0.5687962174415588,
+            "z": -0.01389862410724163
+        },
+        {
+            "x": 0.4098828434944153,
+            "y": 0.5682371854782104,
+            "z": -0.01499732956290245
+        },
+        {
+            "x": 0.40173032879829407,
+            "y": 0.5715081691741943,
+            "z": -0.017095858231186867
+        },
+        {
+            "x": 0.3666353225708008,
+            "y": 0.5498189330101013,
+            "z": -0.022853072732686996
+        },
+        {
+            "x": 0.4153684675693512,
+            "y": 0.46815225481987,
+            "z": -0.015019304119050503
+        },
+        {
+            "x": 0.40751412510871887,
+            "y": 0.44115039706230164,
+            "z": -0.01034980546683073
+        },
+        {
+            "x": 0.40271854400634766,
+            "y": 0.4431772530078888,
+            "z": -0.012107734568417072
+        },
+        {
+            "x": 0.4126344621181488,
+            "y": 0.5689358711242676,
+            "z": -0.011316667310893536
+        },
+        {
+            "x": 0.36252421140670776,
+            "y": 0.5803714394569397,
+            "z": -0.015777410939335823
+        },
+        {
+            "x": 0.41473114490509033,
+            "y": 0.44008776545524597,
+            "z": -0.012898802757263184
+        },
+        {
+            "x": 0.4103396534919739,
+            "y": 0.6128776669502258,
+            "z": -0.006943819113075733
+        },
+        {
+            "x": 0.43472421169281006,
+            "y": 0.48270049691200256,
+            "z": -0.019194385036826134
+        },
+        {
+            "x": 0.4252743124961853,
+            "y": 0.4741615056991577,
+            "z": -0.018524175509810448
+        },
+        {
+            "x": 0.43008559942245483,
+            "y": 0.4705413579940796,
+            "z": -0.016348738223314285
+        },
+        {
+            "x": 0.41786906123161316,
+            "y": 0.4995849132537842,
+            "z": -0.01879885047674179
+        },
+        {
+            "x": 0.43041861057281494,
+            "y": 0.622268557548523,
+            "z": 0.0022193852346390486
+        },
+        {
+            "x": 0.43011176586151123,
+            "y": 0.6096619367599487,
+            "z": 0.001685139606706798
+        },
+        {
+            "x": 0.4212438464164734,
+            "y": 0.6137994527816772,
+            "z": -0.002742643700912595
+        },
+        {
+            "x": 0.39395561814308167,
+            "y": 0.5994333624839783,
+            "z": -0.011887992732226849
+        },
+        {
+            "x": 0.40366360545158386,
+            "y": 0.5327656269073486,
+            "z": -0.0157993845641613
+        },
+        {
+            "x": 0.4012829065322876,
+            "y": 0.6081821322441101,
+            "z": -0.009415905922651291
+        },
+        {
+            "x": 0.3880188763141632,
+            "y": 0.5352822542190552,
+            "z": -0.02214990183711052
+        },
+        {
+            "x": 0.39880532026290894,
+            "y": 0.5464068055152893,
+            "z": -0.01829344592988491
+        },
+        {
+            "x": 0.38098302483558655,
+            "y": 0.5564568042755127,
+            "z": -0.02113909274339676
+        },
+        {
+            "x": 0.4199940860271454,
+            "y": 0.6269093751907349,
+            "z": -0.003625728189945221
+        },
+        {
+            "x": 0.41217732429504395,
+            "y": 0.5068249702453613,
+            "z": -0.017425470054149628
+        },
+        {
+            "x": 0.3861255943775177,
+            "y": 0.6102235913276672,
+            "z": -0.010399247519671917
+        },
+        {
+            "x": 0.39631450176239014,
+            "y": 0.6190000772476196,
+            "z": -0.007267937064170837
+        },
+        {
+            "x": 0.38885316252708435,
+            "y": 0.5871065258979797,
+            "z": -0.015953203663229942
+        },
+        {
+            "x": 0.3520050048828125,
+            "y": 0.566619336605072,
+            "z": -0.016579465940594673
+        },
+        {
+            "x": 0.3762902617454529,
+            "y": 0.5918033123016357,
+            "z": -0.015480760484933853
+        },
+        {
+            "x": 0.339607298374176,
+            "y": 0.5772979855537415,
+            "z": -0.0093829445540905
+        },
+        {
+            "x": 0.3933732211589813,
+            "y": 0.5640453100204468,
+            "z": -0.018809838220477104
+        },
+        {
+            "x": 0.41461411118507385,
+            "y": 0.488725483417511,
+            "z": -0.017051909118890762
+        },
+        {
+            "x": 0.4268947243690491,
+            "y": 0.523190438747406,
+            "z": -0.02390783093869686
+        },
+        {
+            "x": 0.42004725337028503,
+            "y": 0.5269924402236938,
+            "z": -0.02022716961801052
+        },
+        {
+            "x": 0.43154868483543396,
+            "y": 0.5145388245582581,
+            "z": -0.025665761902928352
+        },
+        {
+            "x": 0.40260037779808044,
+            "y": 0.4306684136390686,
+            "z": -0.015074240043759346
+        },
+        {
+            "x": 0.39182189106941223,
+            "y": 0.4257354140281677,
+            "z": -0.021655485033988953
+        },
+        {
+            "x": 0.38224637508392334,
+            "y": 0.4264487624168396,
+            "z": -0.026500776410102844
+        },
+        {
+            "x": 0.3737165033817291,
+            "y": 0.43127110600471497,
+            "z": -0.029269514605402946
+        },
+        {
+            "x": 0.36707350611686707,
+            "y": 0.43881872296333313,
+            "z": -0.02966504916548729
+        },
+        {
+            "x": 0.36042293906211853,
+            "y": 0.46113935112953186,
+            "z": -0.024479158222675323
+        },
+        {
+            "x": 0.3279350996017456,
+            "y": 0.4959423542022705,
+            "z": -0.01615097001194954
+        },
+        {
+            "x": 0.3679075539112091,
+            "y": 0.4766666293144226,
+            "z": -0.023929806426167488
+        },
+        {
+            "x": 0.3758872151374817,
+            "y": 0.4786927402019501,
+            "z": -0.022699255496263504
+        },
+        {
+            "x": 0.3853919506072998,
+            "y": 0.4764140248298645,
+            "z": -0.019941505044698715
+        },
+        {
+            "x": 0.3938353359699249,
+            "y": 0.4716196358203888,
+            "z": -0.016227880492806435
+        },
+        {
+            "x": 0.4002346694469452,
+            "y": 0.4660566747188568,
+            "z": -0.012854854576289654
+        },
+        {
+            "x": 0.4050223231315613,
+            "y": 0.46133241057395935,
+            "z": -0.010937613435089588
+        },
+        {
+            "x": 0.3127620220184326,
+            "y": 0.49433597922325134,
+            "z": -0.001851318753324449
+        },
+        {
+            "x": 0.4182627201080322,
+            "y": 0.5296340584754944,
+            "z": -0.01790889911353588
+        },
+        {
+            "x": 0.4245513677597046,
+            "y": 0.4915481209754944,
+            "z": -0.02075454778969288
+        },
+        {
+            "x": 0.43393877148628235,
+            "y": 0.5221837162971497,
+            "z": -0.024391261860728264
+        },
+        {
+            "x": 0.43422189354896545,
+            "y": 0.5266980528831482,
+            "z": -0.02045789733529091
+        },
+        {
+            "x": 0.4320048391819,
+            "y": 0.5242383480072021,
+            "z": -0.022402605041861534
+        },
+        {
+            "x": 0.41854578256607056,
+            "y": 0.5324013233184814,
+            "z": -0.014986342750489712
+        },
+        {
+            "x": 0.4364074468612671,
+            "y": 0.5271032452583313,
+            "z": -0.02099626138806343
+        },
+        {
+            "x": 0.4337816834449768,
+            "y": 0.5293815732002258,
+            "z": -0.015612605027854443
+        },
+        {
+            "x": 0.4044325351715088,
+            "y": 0.45119959115982056,
+            "z": -0.009866375476121902
+        },
+        {
+            "x": 0.40854424238204956,
+            "y": 0.45384085178375244,
+            "z": -0.009767492301762104
+        },
+        {
+            "x": 0.4117675721645355,
+            "y": 0.45565760135650635,
+            "z": -0.011602330021560192
+        },
+        {
+            "x": 0.3725612163543701,
+            "y": 0.4522916078567505,
+            "z": -0.024039676412940025
+        },
+        {
+            "x": 0.3673095405101776,
+            "y": 0.44811299443244934,
+            "z": -0.025841552764177322
+        },
+        {
+            "x": 0.43722423911094666,
+            "y": 0.4826863706111908,
+            "z": -0.014085404574871063
+        },
+        {
+            "x": 0.43256935477256775,
+            "y": 0.4424207806587219,
+            "z": 0.02990676276385784
+        },
+        {
+            "x": 0.44030678272247314,
+            "y": 0.5233014822006226,
+            "z": -0.01097057480365038
+        },
+        {
+            "x": 0.42762336134910583,
+            "y": 0.38882875442504883,
+            "z": 0.06205488368868828
+        },
+        {
+            "x": 0.4276324510574341,
+            "y": 0.4535462558269501,
+            "z": 0.01651354320347309
+        },
+        {
+            "x": 0.4298180043697357,
+            "y": 0.4539514183998108,
+            "z": 0.02024914138019085
+        },
+        {
+            "x": 0.43168905377388,
+            "y": 0.4530288875102997,
+            "z": 0.02443520911037922
+        },
+        {
+            "x": 0.42900025844573975,
+            "y": 0.4477040469646454,
+            "z": 0.03201627731323242
+        },
+        {
+            "x": 0.4266732633113861,
+            "y": 0.451156347990036,
+            "z": 0.013129531405866146
+        },
+        {
+            "x": 0.43415719270706177,
+            "y": 0.42824867367744446,
+            "z": 0.018040742725133896
+        },
+        {
+            "x": 0.4312798082828522,
+            "y": 0.4298141896724701,
+            "z": 0.01360197365283966
+        },
+        {
+            "x": 0.43544650077819824,
+            "y": 0.4286259710788727,
+            "z": 0.022765178233385086
+        },
+        {
+            "x": 0.4348490536212921,
+            "y": 0.431519091129303,
+            "z": 0.026654595509171486
+        },
+        {
+            "x": 0.4280412793159485,
+            "y": 0.45579642057418823,
+            "z": 0.03623531013727188
+        },
+        {
+            "x": 0.4368334114551544,
+            "y": 0.6046300530433655,
+            "z": 0.018491214141249657
+        },
+        {
+            "x": 0.4314844310283661,
+            "y": 0.44054800271987915,
+            "z": 0.03225799277424812
+        },
+        {
+            "x": 0.4301164150238037,
+            "y": 0.43590793013572693,
+            "z": 0.06601022183895111
+        },
+        {
+            "x": 0.4246448874473572,
+            "y": 0.4487944543361664,
+            "z": 0.043662555515766144
+        },
+        {
+            "x": 0.44071513414382935,
+            "y": 0.499345988035202,
+            "z": 0.014480939134955406
+        },
+        {
+            "x": 0.43873488903045654,
+            "y": 0.5463625192642212,
+            "z": -0.004216282162815332
+        },
+        {
+            "x": 0.4366281032562256,
+            "y": 0.5554612874984741,
+            "z": -0.002163076540455222
+        },
+        {
+            "x": 0.44049593806266785,
+            "y": 0.5478578805923462,
+            "z": 0.002823672955855727
+        },
+        {
+            "x": 0.4404645264148712,
+            "y": 0.5510445237159729,
+            "z": 0.009338997304439545
+        },
+        {
+            "x": 0.43752434849739075,
+            "y": 0.555489182472229,
+            "z": 0.0030873622745275497
+        },
+        {
+            "x": 0.437791645526886,
+            "y": 0.5563557147979736,
+            "z": 0.008438058197498322
+        },
+        {
+            "x": 0.43985170125961304,
+            "y": 0.5712543725967407,
+            "z": 0.020139271393418312
+        },
+        {
+            "x": 0.44604572653770447,
+            "y": 0.5182696580886841,
+            "z": -0.018952669575810432
+        },
+        {
+            "x": 0.44624996185302734,
+            "y": 0.5080389380455017,
+            "z": -0.020117297768592834
+        },
+        {
+            "x": 0.4367671012878418,
+            "y": 0.42057549953460693,
+            "z": 0.03177456185221672
+        },
+        {
+            "x": 0.43209826946258545,
+            "y": 0.4744965434074402,
+            "z": 0.006410946603864431
+        },
+        {
+            "x": 0.4440801441669464,
+            "y": 0.5095345377922058,
+            "z": -0.0005747603136114776
+        },
+        {
+            "x": 0.4420202672481537,
+            "y": 0.5033710598945618,
+            "z": 0.0007704672170802951
+        },
+        {
+            "x": 0.4451804459095001,
+            "y": 0.492343544960022,
+            "z": 0.030544012784957886
+        },
+        {
+            "x": 0.44220876693725586,
+            "y": 0.49473369121551514,
+            "z": -0.017414482310414314
+        },
+        {
+            "x": 0.442160040140152,
+            "y": 0.4104143977165222,
+            "z": 0.014184288680553436
+        },
+        {
+            "x": 0.4410437345504761,
+            "y": 0.41347527503967285,
+            "z": 0.02316071279346943
+        },
+        {
+            "x": 0.4305397570133209,
+            "y": 0.37192419171333313,
+            "z": 0.04882647469639778
+        },
+        {
+            "x": 0.4354777932167053,
+            "y": 0.4201982021331787,
+            "z": -0.0035872734151780605
+        },
+        {
+            "x": 0.42841821908950806,
+            "y": 0.43328049778938293,
+            "z": 0.011975890025496483
+        },
+        {
+            "x": 0.441376656293869,
+            "y": 0.5599613785743713,
+            "z": 0.024193495512008667
+        },
+        {
+            "x": 0.4219421148300171,
+            "y": 0.5376562476158142,
+            "z": 0.07879915833473206
+        },
+        {
+            "x": 0.4412657916545868,
+            "y": 0.5169561505317688,
+            "z": -0.0015299473889172077
+        },
+        {
+            "x": 0.4386400878429413,
+            "y": 0.5227285623550415,
+            "z": -0.0058725811541080475
+        },
+        {
+            "x": 0.4382319450378418,
+            "y": 0.5571662783622742,
+            "z": 0.020886391401290894
+        },
+        {
+            "x": 0.4368482828140259,
+            "y": 0.5576136112213135,
+            "z": 0.01757928729057312
+        },
+        {
+            "x": 0.4401945471763611,
+            "y": 0.4069204032421112,
+            "z": 0.026896310970187187
+        },
+        {
+            "x": 0.4420361816883087,
+            "y": 0.5140070915222168,
+            "z": 0.001683766138739884
+        },
+        {
+            "x": 0.44063490629196167,
+            "y": 0.4112250804901123,
+            "z": 0.005087006371468306
+        },
+        {
+            "x": 0.4422385096549988,
+            "y": 0.4024478495121002,
+            "z": 0.004414049442857504
+        },
+        {
+            "x": 0.42813369631767273,
+            "y": 0.3518962264060974,
+            "z": 0.01644762046635151
+        },
+        {
+            "x": 0.43583881855010986,
+            "y": 0.38704627752304077,
+            "z": 0.03599359095096588
+        },
+        {
+            "x": 0.43112948536872864,
+            "y": 0.377689391374588,
+            "z": 0.009349983185529709
+        },
+        {
+            "x": 0.4338582158088684,
+            "y": 0.41659241914749146,
+            "z": 0.037531778216362
+        },
+        {
+            "x": 0.43392080068588257,
+            "y": 0.3997369408607483,
+            "z": 0.04843093827366829
+        },
+        {
+            "x": 0.4381532073020935,
+            "y": 0.5511564612388611,
+            "z": -0.003507617162540555
+        },
+        {
+            "x": 0.4394896924495697,
+            "y": 0.5519949793815613,
+            "z": 0.002837406937032938
+        },
+        {
+            "x": 0.4395054578781128,
+            "y": 0.5538957715034485,
+            "z": 0.008394110016524792
+        },
+        {
+            "x": 0.4395834505558014,
+            "y": 0.5197235345840454,
+            "z": -0.002157582901418209
+        },
+        {
+            "x": 0.43757155537605286,
+            "y": 0.5576974153518677,
+            "z": 0.018897734582424164
+        },
+        {
+            "x": 0.4378703236579895,
+            "y": 0.5588713884353638,
+            "z": 0.0141952745616436
+        },
+        {
+            "x": 0.4364708960056305,
+            "y": 0.5574179887771606,
+            "z": 0.017029935494065285
+        },
+        {
+            "x": 0.4442846477031708,
+            "y": 0.5150272250175476,
+            "z": -0.00815239455550909
+        },
+        {
+            "x": 0.43598347902297974,
+            "y": 0.5578932166099548,
+            "z": 0.009157710708677769
+        },
+        {
+            "x": 0.43581053614616394,
+            "y": 0.5579491257667542,
+            "z": 0.005040311720222235
+        },
+        {
+            "x": 0.4348042607307434,
+            "y": 0.5585920810699463,
+            "z": 0.0006259187939576805
+        },
+        {
+            "x": 0.43447473645210266,
+            "y": 0.5955455899238586,
+            "z": 0.004636537283658981
+        },
+        {
+            "x": 0.43774476647377014,
+            "y": 0.571617841720581,
+            "z": 0.0010925251990556717
+        },
+        {
+            "x": 0.4377289414405823,
+            "y": 0.5662229657173157,
+            "z": 0.0005067778984084725
+        },
+        {
+            "x": 0.4363609254360199,
+            "y": 0.5615829229354858,
+            "z": 0.0013493476435542107
+        },
+        {
+            "x": 0.4346312880516052,
+            "y": 0.5586479902267456,
+            "z": 0.0007787075010128319
+        },
+        {
+            "x": 0.43577906489372253,
+            "y": 0.5576416254043579,
+            "z": 0.009229126386344433
+        },
+        {
+            "x": 0.43714702129364014,
+            "y": 0.5587875843048096,
+            "z": 0.009174191392958164
+        },
+        {
+            "x": 0.43840494751930237,
+            "y": 0.560604453086853,
+            "z": 0.009097281843423843
+        },
+        {
+            "x": 0.43937984108924866,
+            "y": 0.5631480813026428,
+            "z": 0.010772807523608208
+        },
+        {
+            "x": 0.44233542680740356,
+            "y": 0.5413867235183716,
+            "z": 0.01199786365032196
+        },
+        {
+            "x": 0.4181281626224518,
+            "y": 0.48203060030937195,
+            "z": 0.0875009074807167
+        },
+        {
+            "x": 0.43581053614616394,
+            "y": 0.5579491257667542,
+            "z": 0.013634935021400452
+        },
+        {
+            "x": 0.4369111657142639,
+            "y": 0.5582285523414612,
+            "z": 0.013612961396574974
+        },
+        {
+            "x": 0.4374137818813324,
+            "y": 0.5282073020935059,
+            "z": -0.00566382659599185
+        },
+        {
+            "x": 0.4392218291759491,
+            "y": 0.5214287042617798,
+            "z": 0.0029362905770540237
+        },
+        {
+            "x": 0.43804264068603516,
+            "y": 0.5256216526031494,
+            "z": -0.006070347968488932
+        },
+        {
+            "x": 0.43450403213500977,
+            "y": 0.47880110144615173,
+            "z": 0.011887992732226849
+        },
+        {
+            "x": 0.4396456480026245,
+            "y": 0.4836505949497223,
+            "z": 0.018513187766075134
+        },
+        {
+            "x": 0.44084107875823975,
+            "y": 0.5075640678405762,
+            "z": 0.0036586893256753683
+        },
+        {
+            "x": 0.43086186051368713,
+            "y": 0.3593524694442749,
+            "z": 0.033005110919475555
+        },
+        {
+            "x": 0.4347144365310669,
+            "y": 0.379548043012619,
+            "z": 0.02316071279346943
+        },
+        {
+            "x": 0.4432448148727417,
+            "y": 0.4018048644065857,
+            "z": 0.016041100025177002
+        },
+        {
+            "x": 0.4385310709476471,
+            "y": 0.5793048143386841,
+            "z": 0.01571148820221424
+        },
+        {
+            "x": 0.4383077621459961,
+            "y": 0.4059421718120575,
+            "z": -0.0050842599011957645
+        },
+        {
+            "x": 0.42517033219337463,
+            "y": 0.37882184982299805,
+            "z": -0.0024212722200900316
+        },
+        {
+            "x": 0.42195433378219604,
+            "y": 0.34912925958633423,
+            "z": 0.0014475445495918393
+        },
+        {
+            "x": 0.43076133728027344,
+            "y": 0.4509464502334595,
+            "z": 0.02883003279566765
+        },
+        {
+            "x": 0.42483386397361755,
+            "y": 0.46461567282676697,
+            "z": 0.042146340012550354
+        },
+        {
+            "x": 0.4260600209236145,
+            "y": 0.4486546218395233,
+            "z": 0.012151682749390602
+        },
+        {
+            "x": 0.4314056932926178,
+            "y": 0.43453818559646606,
+            "z": 0.034015923738479614
+        },
+        {
+            "x": 0.43047866225242615,
+            "y": 0.46914368867874146,
+            "z": 0.0023883110843598843
+        },
+        {
+            "x": 0.44565242528915405,
+            "y": 0.5074380040168762,
+            "z": -0.0068833897821605206
+        },
+        {
+            "x": 0.4396766424179077,
+            "y": 0.45949944853782654,
+            "z": 0.051683105528354645
+        },
+        {
+            "x": 0.4307774603366852,
+            "y": 0.472064733505249,
+            "z": 0.03678466007113457
+        },
+        {
+            "x": 0.4358561933040619,
+            "y": 0.4762992560863495,
+            "z": 0.02823673188686371
+        },
+        {
+            "x": 0.43480268120765686,
+            "y": 0.47473394870758057,
+            "z": 0.019963478669524193
+        },
+        {
+            "x": 0.43203529715538025,
+            "y": 0.4703874886035919,
+            "z": 0.014074417762458324
+        },
+        {
+            "x": 0.43121758103370667,
+            "y": 0.4658871591091156,
+            "z": 0.008872046135365963
+        },
+        {
+            "x": 0.4282614588737488,
+            "y": 0.4579487442970276,
+            "z": -0.008069992065429688
+        },
+        {
+            "x": 0.44261735677719116,
+            "y": 0.4830075204372406,
+            "z": 0.05137546733021736
+        },
+        {
+            "x": 0.4301949739456177,
+            "y": 0.43318256735801697,
+            "z": 0.03843271732330322
+        },
+        {
+            "x": 0.4427596628665924,
+            "y": 0.5245731472969055,
+            "z": -0.017304612323641777
+        },
+        {
+            "x": 0.4347400367259979,
+            "y": 0.48634833097457886,
+            "z": 0.004946921486407518
+        },
+        {
+            "x": 0.41837096214294434,
+            "y": 0.43287578225135803,
+            "z": 0.08323792368173599
+        },
+        {
+            "x": 0.4308401346206665,
+            "y": 0.4604503810405731,
+            "z": 0.005488033872097731
+        },
+        {
+            "x": 0.43835678696632385,
+            "y": 0.5077319145202637,
+            "z": 0.007938146591186523
+        },
+        {
+            "x": 0.42926743626594543,
+            "y": 0.4415823817253113,
+            "z": 0.034345533698797226
+        },
+        {
+            "x": 0.4429164230823517,
+            "y": 0.49990490078926086,
+            "z": -0.005460566375404596
+        },
+        {
+            "x": 0.4196617007255554,
+            "y": 0.5083759427070618,
+            "z": 0.08477611839771271
+        },
+        {
+            "x": 0.42516371607780457,
+            "y": 0.44513261318206787,
+            "z": 0.013634935021400452
+        },
+        {
+            "x": 0.4430893361568451,
+            "y": 0.496354877948761,
+            "z": -0.012074774131178856
+        },
+        {
+            "x": 0.43625104427337646,
+            "y": 0.5727360248565674,
+            "z": 0.04790356010198593
+        },
+        {
+            "x": 0.4291599988937378,
+            "y": 0.5820167660713196,
+            "z": 0.05612187460064888
+        },
+        {
+            "x": 0.43282172083854675,
+            "y": 0.4833155572414398,
+            "z": 0.07022925466299057
+        },
+        {
+            "x": 0.4351500868797302,
+            "y": 0.5549861192703247,
+            "z": 0.0572645328938961
+        },
+        {
+            "x": 0.43126383423805237,
+            "y": 0.4156841039657593,
+            "z": 0.05853902921080589
+        },
+        {
+            "x": 0.4362203776836395,
+            "y": 0.614357590675354,
+            "z": 0.022545436397194862
+        },
+        {
+            "x": 0.4389389157295227,
+            "y": 0.5273966193199158,
+            "z": -0.01238241046667099
+        },
+        {
+            "x": 0.43645399808883667,
+            "y": 0.49262359738349915,
+            "z": 0.009448867291212082
+        },
+        {
+            "x": 0.41904741525650024,
+            "y": 0.4517158567905426,
+            "z": 0.051419418305158615
+        },
+        {
+            "x": 0.433072566986084,
+            "y": 0.44559338688850403,
+            "z": 0.024369286373257637
+        },
+        {
+            "x": 0.43128013610839844,
+            "y": 0.44728463888168335,
+            "z": 0.020644675940275192
+        },
+        {
+            "x": 0.4386879503726959,
+            "y": 0.5598776936531067,
+            "z": 0.015986165031790733
+        },
+        {
+            "x": 0.4420517683029175,
+            "y": 0.5054256319999695,
+            "z": 0.05238628014922142
+        },
+        {
+            "x": 0.43185746669769287,
+            "y": 0.631968080997467,
+            "z": 0.017436455935239792
+        },
+        {
+            "x": 0.4330442249774933,
+            "y": 0.6112550497055054,
+            "z": 0.03577385097742081
+        },
+        {
+            "x": 0.43164461851119995,
+            "y": 0.599319338798523,
+            "z": 0.04498100280761719
+        },
+        {
+            "x": 0.4289530813694,
+            "y": 0.4472428262233734,
+            "z": 0.017326585948467255
+        },
+        {
+            "x": 0.4270033538341522,
+            "y": 0.445649653673172,
+            "z": 0.015359902754426003
+        },
+        {
+            "x": 0.42572975158691406,
+            "y": 0.4454261064529419,
+            "z": 0.014535874128341675
+        },
+        {
+            "x": 0.4256194233894348,
+            "y": 0.4321206212043762,
+            "z": 0.045178767293691635
+        },
+        {
+            "x": 0.4282611012458801,
+            "y": 0.43873128294944763,
+            "z": 0.01470067910850048
+        },
+        {
+            "x": 0.4305252134799957,
+            "y": 0.4364110827445984,
+            "z": 0.016260841861367226
+        },
+        {
+            "x": 0.43321388959884644,
+            "y": 0.43474772572517395,
+            "z": 0.019381165504455566
+        },
+        {
+            "x": 0.4348334074020386,
+            "y": 0.43485942482948303,
+            "z": 0.023270582780241966
+        },
+        {
+            "x": 0.4343302845954895,
+            "y": 0.4369279742240906,
+            "z": 0.026478800922632217
+        },
+        {
+            "x": 0.4232919216156006,
+            "y": 0.4076201915740967,
+            "z": 0.07396485656499863
+        },
+        {
+            "x": 0.43340274691581726,
+            "y": 0.4435807764530182,
+            "z": 0.027577508240938187
+        },
+        {
+            "x": 0.44128188490867615,
+            "y": 0.5363273620605469,
+            "z": 0.006004425697028637
+        },
+        {
+            "x": 0.44288527965545654,
+            "y": 0.5153208374977112,
+            "z": -0.0037191181909292936
+        },
+        {
+            "x": 0.4382629990577698,
+            "y": 0.5365092158317566,
+            "z": -0.004180574323982
+        },
+        {
+            "x": 0.43647149205207825,
+            "y": 0.5888647437095642,
+            "z": 0.03920181468129158
+        },
+        {
+            "x": 0.4358270764350891,
+            "y": 0.6017789244651794,
+            "z": 0.030961520969867706
+        },
+        {
+            "x": 0.4350413382053375,
+            "y": 0.6255387663841248,
+            "z": 0.012953737750649452
+        },
+        {
+            "x": 0.4255039393901825,
+            "y": 0.5628693699836731,
+            "z": 0.06829553097486496
+        },
+        {
+            "x": 0.4266730844974518,
+            "y": 0.4424211382865906,
+            "z": 0.014085404574871063
+        },
+        {
+            "x": 0.4339536428451538,
+            "y": 0.47516730427742004,
+            "z": -0.00599893182516098
+        },
+        {
+            "x": 0.4335947334766388,
+            "y": 0.6218770146369934,
+            "z": 0.02661064639687538
+        },
+        {
+            "x": 0.4330265522003174,
+            "y": 0.5080257654190063,
+            "z": 0.06895475834608078
+        },
+        {
+            "x": 0.43563759326934814,
+            "y": 0.5580050349235535,
+            "z": 0.005224344786256552
+        },
+        {
+            "x": 0.437272846698761,
+            "y": 0.5600175261497498,
+            "z": 0.005625372286885977
+        },
+        {
+            "x": 0.4384835958480835,
+            "y": 0.5631201863288879,
+            "z": 0.005402884446084499
+        },
+        {
+            "x": 0.4393013119697571,
+            "y": 0.5676205158233643,
+            "z": 0.006443907506763935
+        },
+        {
+            "x": 0.4368959963321686,
+            "y": 0.5877745747566223,
+            "z": 0.010536585003137589
+        },
+        {
+            "x": 0.43733566999435425,
+            "y": 0.5571383833885193,
+            "z": 0.013481116853654385
+        },
+        {
+            "x": 0.43865644931793213,
+            "y": 0.5560761094093323,
+            "z": 0.014722653664648533
+        },
+        {
+            "x": 0.4395683705806732,
+            "y": 0.5545107126235962,
+            "z": 0.015755437314510345
+        },
+        {
+            "x": 0.44265007972717285,
+            "y": 0.5497026443481445,
+            "z": 0.01900760643184185
+        },
+        {
+            "x": 0.44422173500061035,
+            "y": 0.5144122838973999,
+            "z": 0.03852061182260513
+        },
+        {
+            "x": 0.4291263222694397,
+            "y": 0.4629102945327759,
+            "z": -0.0026410133577883244
+        },
+        {
+            "x": 0.42716044187545776,
+            "y": 0.4384518265724182,
+            "z": 0.0055429693311452866
+        },
+        {
+            "x": 0.4260598421096802,
+            "y": 0.4399194121360779,
+            "z": 0.010877184569835663
+        },
+        {
+            "x": 0.43598347902297974,
+            "y": 0.5578932166099548,
+            "z": 0.013612961396574974
+        },
+        {
+            "x": 0.44099894165992737,
+            "y": 0.5405482649803162,
+            "z": 0.04671695828437805
+        },
+        {
+            "x": 0.431122750043869,
+            "y": 0.43875905871391296,
+            "z": -0.0034746560268104076
+        },
+        {
+            "x": 0.4357483386993408,
+            "y": 0.5957691073417664,
+            "z": 0.014393041841685772
+        },
+        {
+            "x": 0.43299442529678345,
+            "y": 0.4710303246974945,
+            "z": -0.012063786387443542
+        },
+        {
+            "x": 0.43805772066116333,
+            "y": 0.4908345341682434,
+            "z": -0.003131310688331723
+        },
+        {
+            "x": 0.43417617678642273,
+            "y": 0.6048538088798523,
+            "z": 0.007383300922811031
+        },
+        {
+            "x": 0.4402133822441101,
+            "y": 0.5730432868003845,
+            "z": 0.02551194094121456
+        },
+        {
+            "x": 0.4403538107872009,
+            "y": 0.5150274634361267,
+            "z": 0.01192095410078764
+        },
+        {
+            "x": 0.4379179775714874,
+            "y": 0.5855382680892944,
+            "z": 0.02021618001163006
+        },
+        {
+            "x": 0.4444732367992401,
+            "y": 0.5098839402198792,
+            "z": 0.021600550040602684
+        },
+        {
+            "x": 0.4429798126220703,
+            "y": 0.5249784588813782,
+            "z": 0.01653551682829857
+        },
+        {
+            "x": 0.4446936547756195,
+            "y": 0.5260125994682312,
+            "z": 0.029049772769212723
+        },
+        {
+            "x": 0.4356858432292938,
+            "y": 0.6161186695098877,
+            "z": 0.009877362288534641
+        },
+        {
+            "x": 0.43760183453559875,
+            "y": 0.4951113164424896,
+            "z": 0.0022372391540557146
+        },
+        {
+            "x": 0.4396788775920868,
+            "y": 0.5782984495162964,
+            "z": 0.0327194519340992
+        },
+        {
+            "x": 0.4373363256454468,
+            "y": 0.592079222202301,
+            "z": 0.025885500013828278
+        },
+        {
+            "x": 0.44194266200065613,
+            "y": 0.5585078001022339,
+            "z": 0.029181616380810738
+        },
+        {
+            "x": 0.4406369924545288,
+            "y": 0.5247829556465149,
+            "z": 0.05326524376869202
+        },
+        {
+            "x": 0.44154953956604004,
+            "y": 0.5564113855361938,
+            "z": 0.03687255457043648
+        },
+        {
+            "x": 0.4334830045700073,
+            "y": 0.5317016243934631,
+            "z": 0.06618601828813553
+        },
+        {
+            "x": 0.4435146450996399,
+            "y": 0.5389407873153687,
+            "z": 0.022457540035247803
+        },
+        {
+            "x": 0.43433108925819397,
+            "y": 0.48060405254364014,
+            "z": -0.00015115784481167793
+        },
+        {
+            "x": 0.4456525444984436,
+            "y": 0.5126791000366211,
+            "z": -0.008449045941233635
+        },
+        {
+            "x": 0.4439701437950134,
+            "y": 0.513699471950531,
+            "z": -0.0026190392673015594
+        },
+        {
+            "x": 0.4465172290802002,
+            "y": 0.5071583986282349,
+            "z": -0.013316310942173004
+        },
+        {
+            "x": 0.43008482456207275,
+            "y": 0.42861229181289673,
+            "z": 0.00693283136934042
+        },
+        {
+            "x": 0.4343457520008087,
+            "y": 0.4231053590774536,
+            "z": 0.010805768892168999
+        },
+        {
+            "x": 0.4375690221786499,
+            "y": 0.42142802476882935,
+            "z": 0.016030114144086838
+        },
+        {
+            "x": 0.4385596215724945,
+            "y": 0.4223783612251282,
+            "z": 0.022413592785596848
+        },
+        {
+            "x": 0.4362955093383789,
+            "y": 0.4264456033706665,
+            "z": 0.02830265462398529
+        },
+        {
+            "x": 0.4269719123840332,
+            "y": 0.44534218311309814,
+            "z": 0.03779546916484833
+        },
+        {
+            "x": 0.4317834973335266,
+            "y": 0.4591924548149109,
+            "z": 0.06939423829317093
+        },
+        {
+            "x": 0.430997371673584,
+            "y": 0.4602407217025757,
+            "z": 0.03252168372273445
+        },
+        {
+            "x": 0.4329628646373749,
+            "y": 0.4637346863746643,
+            "z": 0.026434853672981262
+        },
+        {
+            "x": 0.43173643946647644,
+            "y": 0.4639723598957062,
+            "z": 0.020435921847820282
+        },
+        {
+            "x": 0.42917346954345703,
+            "y": 0.46162447333335876,
+            "z": 0.015524708665907383
+        },
+        {
+            "x": 0.4279312491416931,
+            "y": 0.45821434259414673,
+            "z": 0.011157354339957237
+        },
+        {
+            "x": 0.4274437725543976,
+            "y": 0.45519548654556274,
+            "z": 0.00859737116843462
+        },
+        {
+            "x": 0.4169248640537262,
+            "y": 0.45716676115989685,
+            "z": 0.08728116750717163
+        },
+        {
+            "x": 0.44194188714027405,
+            "y": 0.516578733921051,
+            "z": -0.0006406826432794333
+        },
+        {
+            "x": 0.43826204538345337,
+            "y": 0.4858449697494507,
+            "z": -0.00841608364135027
+        },
+        {
+            "x": 0.44676893949508667,
+            "y": 0.5148593783378601,
+            "z": -0.01445896364748478
+        },
+        {
+            "x": 0.44277530908584595,
+            "y": 0.5212327837944031,
+            "z": -0.014689692296087742
+        },
+        {
+            "x": 0.4447878301143646,
+            "y": 0.5164527893066406,
+            "z": -0.012327475473284721
+        },
+        {
+            "x": 0.43966206908226013,
+            "y": 0.5204922556877136,
+            "z": -0.0005115847452543676
+        },
+        {
+            "x": 0.443136990070343,
+            "y": 0.5230217576026917,
+            "z": -0.016293803229928017
+        },
+        {
+            "x": 0.4398193955421448,
+            "y": 0.5255237221717834,
+            "z": -0.01170121319591999
+        },
+        {
+            "x": 0.4252265989780426,
+            "y": 0.44574758410453796,
+            "z": 0.010932119563221931
+        },
+        {
+            "x": 0.4266732335090637,
+            "y": 0.4494093060493469,
+            "z": 0.005573183298110962
+        },
+        {
+            "x": 0.4301638901233673,
+            "y": 0.45209255814552307,
+            "z": 0.0011330400593578815
+        },
+        {
+            "x": 0.43327686190605164,
+            "y": 0.4388567805290222,
+            "z": 0.02915964461863041
+        },
+        {
+            "x": 0.4323962926864624,
+            "y": 0.4354885220527649,
+            "z": 0.030917571857571602
+        },
+        {
+            "x": 0.3823961913585663,
+            "y": 0.45149436593055725,
+            "z": -0.019464941695332527
+        },
+        {
+            "x": 0.3895502984523773,
+            "y": 0.4498167932033539,
+            "z": -0.019464941695332527
+        },
+        {
+            "x": 0.3817670941352844,
+            "y": 0.4418507218360901,
+            "z": -0.019464941695332527
+        },
+        {
+            "x": 0.37508484721183777,
+            "y": 0.45338159799575806,
+            "z": -0.019464941695332527
+        },
+        {
+            "x": 0.38295456767082214,
+            "y": 0.4613197147846222,
+            "z": -0.019464941695332527
+        },
+        {
+            "x": 0.4377894103527069,
+            "y": 0.4358096718788147,
+            "z": 0.021184414625167847
+        },
+        {
+            "x": 0.44035229086875916,
+            "y": 0.43466344475746155,
+            "z": 0.021184414625167847
+        },
+        {
+            "x": 0.4363584518432617,
+            "y": 0.4288075864315033,
+            "z": 0.021184414625167847
+        },
+        {
+            "x": 0.435242235660553,
+            "y": 0.4371095895767212,
+            "z": 0.021184414625167847
+        },
+        {
+            "x": 0.4392361044883728,
+            "y": 0.44296544790267944,
+            "z": 0.021184414625167847
+        }
+    ],
+    "poseLandmarks": [
+        {
+            "x": 0.4386860430240631,
+            "y": 0.5065067410469055,
+            "z": -0.46722087264060974,
+            "visibility": 0.9999474883079529
+        },
+        {
+            "x": 0.43047040700912476,
+            "y": 0.4530491232872009,
+            "z": -0.4172671437263489,
+            "visibility": 0.9998871088027954
+        },
+        {
+            "x": 0.4330567717552185,
+            "y": 0.4532887041568756,
+            "z": -0.4172147214412689,
+            "visibility": 0.9999008178710938
+        },
+        {
+            "x": 0.4356718063354492,
+            "y": 0.45392951369285583,
+            "z": -0.4168742299079895,
+            "visibility": 0.999860942363739
+        },
+        {
+            "x": 0.41194233298301697,
+            "y": 0.4516667127609253,
+            "z": -0.4652913510799408,
+            "visibility": 0.9999292492866516
+        },
+        {
+            "x": 0.39954331517219543,
+            "y": 0.4510050117969513,
+            "z": -0.4649278223514557,
+            "visibility": 0.9999363422393799
+        },
+        {
+            "x": 0.38609597086906433,
+            "y": 0.45135560631752014,
+            "z": -0.4652908444404602,
+            "visibility": 0.9999085068702698
+        },
+        {
+            "x": 0.4123886227607727,
+            "y": 0.4775681495666504,
+            "z": -0.15945835411548615,
+            "visibility": 0.9998641014099121
+        },
+        {
+            "x": 0.3410588800907135,
+            "y": 0.4837435483932495,
+            "z": -0.3610565960407257,
+            "visibility": 0.999967634677887
+        },
+        {
+            "x": 0.4368745684623718,
+            "y": 0.5650520920753479,
+            "z": -0.37435057759284973,
+            "visibility": 0.9999340772628784
+        },
+        {
+            "x": 0.4160119593143463,
+            "y": 0.5674940943717957,
+            "z": -0.4348716735839844,
+            "visibility": 0.9999766945838928
+        },
+        {
+            "x": 0.48399877548217773,
+            "y": 0.7423480749130249,
+            "z": -0.029770508408546448,
+            "visibility": 0.9992254972457886
+        },
+        {
+            "x": 0.22687582671642303,
+            "y": 0.8239629864692688,
+            "z": -0.3246696889400482,
+            "visibility": 0.9989224672317505
+        },
+        {
+            "x": 0.6773309111595154,
+            "y": 0.83209627866745,
+            "z": -0.22375449538230896,
+            "visibility": 0.39626914262771606
+        },
+        {
+            "x": 0.1966266632080078,
+            "y": 1.271440863609314,
+            "z": -0.30060431361198425,
+            "visibility": 0.5734893679618835
+        },
+        {
+            "x": 0.6085874438285828,
+            "y": 0.4578017294406891,
+            "z": -0.4799560010433197,
+            "visibility": 0.4140438735485077
+        },
+        {
+            "x": 0.22829997539520264,
+            "y": 1.567129135131836,
+            "z": -0.4298778474330902,
+            "visibility": 0.1658201813697815
+        },
+        {
+            "x": 0.5909651517868042,
+            "y": 0.3567257225513458,
+            "z": -0.552956223487854,
+            "visibility": 0.4038403332233429
+        },
+        {
+            "x": 0.22306080162525177,
+            "y": 1.670952558517456,
+            "z": -0.4548441767692566,
+            "visibility": 0.17653624713420868
+        },
+        {
+            "x": 0.5695606470108032,
+            "y": 0.3468310534954071,
+            "z": -0.47601938247680664,
+            "visibility": 0.4167965054512024
+        },
+        {
+            "x": 0.24479062855243683,
+            "y": 1.659975290298462,
+            "z": -0.5304962992668152,
+            "visibility": 0.227818101644516
+        },
+        {
+            "x": 0.5694534182548523,
+            "y": 0.3890620768070221,
+            "z": -0.46545082330703735,
+            "visibility": 0.41584351658821106
+        },
+        {
+            "x": 0.2507134675979614,
+            "y": 1.6213847398757935,
+            "z": -0.45414823293685913,
+            "visibility": 0.21966785192489624
+        },
+        {
+            "x": 0.46999678015708923,
+            "y": 1.4481405019760132,
+            "z": 0.04592829942703247,
+            "visibility": 0.002900355728343129
+        },
+        {
+            "x": 0.2962968349456787,
+            "y": 1.485524296760559,
+            "z": -0.04299911856651306,
+            "visibility": 0.0022863310296088457
+        },
+        {
+            "x": 0.5047164559364319,
+            "y": 1.9953004121780396,
+            "z": 0.09304667264223099,
+            "visibility": 0.0013184779090806842
+        },
+        {
+            "x": 0.34300804138183594,
+            "y": 2.0234973430633545,
+            "z": -0.01266759354621172,
+            "visibility": 0.0005730757839046419
+        },
+        {
+            "x": 0.5190618634223938,
+            "y": 2.468435049057007,
+            "z": 0.4386540353298187,
+            "visibility": 0.00007847072265576571
+        },
+        {
+            "x": 0.3641129434108734,
+            "y": 2.4958274364471436,
+            "z": 0.2429448664188385,
+            "visibility": 0.00001985680682992097
+        },
+        {
+            "x": 0.5186477303504944,
+            "y": 2.546627998352051,
+            "z": 0.4542500078678131,
+            "visibility": 0.00006845188909210265
+        },
+        {
+            "x": 0.35389524698257446,
+            "y": 2.5801846981048584,
+            "z": 0.2563142776489258,
+            "visibility": 0.000035013523302040994
+        },
+        {
+            "x": 0.5327662825584412,
+            "y": 2.6131927967071533,
+            "z": 0.16580800712108612,
+            "visibility": 0.0005470696487464011
+        },
+        {
+            "x": 0.4222382605075836,
+            "y": 2.6224193572998047,
+            "z": -0.08698856085538864,
+            "visibility": 0.00017500318062957376
+        }
+    ],
+    "za": [
+        {
+            "x": 0.09130759537220001,
+            "y": -0.5932634472846985,
+            "z": -0.22024010121822357,
+            "visibility": 0.9999474883079529
+        },
+        {
+            "x": 0.08324944972991943,
+            "y": -0.6322028040885925,
+            "z": -0.19961762428283691,
+            "visibility": 0.9998871088027954
+        },
+        {
+            "x": 0.08315319567918777,
+            "y": -0.6336522102355957,
+            "z": -0.1992502063512802,
+            "visibility": 0.9999008178710938
+        },
+        {
+            "x": 0.08245717734098434,
+            "y": -0.6346099376678467,
+            "z": -0.20050516724586487,
+            "visibility": 0.999860942363739
+        },
+        {
+            "x": 0.06510922312736511,
+            "y": -0.6259469985961914,
+            "z": -0.21421755850315094,
+            "visibility": 0.9999292492866516
+        },
+        {
+            "x": 0.06570746749639511,
+            "y": -0.62644362449646,
+            "z": -0.21710386872291565,
+            "visibility": 0.9999363422393799
+        },
+        {
+            "x": 0.06477861851453781,
+            "y": -0.626908540725708,
+            "z": -0.21619562804698944,
+            "visibility": 0.9999085068702698
+        },
+        {
+            "x": 0.05635516345500946,
+            "y": -0.630035400390625,
+            "z": -0.09655234962701797,
+            "visibility": 0.9998641014099121
+        },
+        {
+            "x": -0.027833137661218643,
+            "y": -0.6045699715614319,
+            "z": -0.18656136095523834,
+            "visibility": 0.999967634677887
+        },
+        {
+            "x": 0.08029310405254364,
+            "y": -0.5778607726097107,
+            "z": -0.18900182843208313,
+            "visibility": 0.9999340772628784
+        },
+        {
+            "x": 0.05755699425935745,
+            "y": -0.566648542881012,
+            "z": -0.21352632343769073,
+            "visibility": 0.9999766945838928
+        },
+        {
+            "x": 0.11821595579385757,
+            "y": -0.4693058729171753,
+            "z": 0.0006274360348470509,
+            "visibility": 0.9992254972457886
+        },
+        {
+            "x": -0.1477590650320053,
+            "y": -0.4017382562160492,
+            "z": -0.15512514114379883,
+            "visibility": 0.9989224672317505
+        },
+        {
+            "x": 0.32091155648231506,
+            "y": -0.4615008234977722,
+            "z": -0.06056823581457138,
+            "visibility": 0.39626914262771606
+        },
+        {
+            "x": -0.17884720861911774,
+            "y": -0.17083986103534698,
+            "z": -0.16306188702583313,
+            "visibility": 0.5734893679618835
+        },
+        {
+            "x": 0.2455635368824005,
+            "y": -0.6598109602928162,
+            "z": -0.17294520139694214,
+            "visibility": 0.4140438735485077
+        },
+        {
+            "x": -0.1697225272655487,
+            "y": 0.0015481098089367151,
+            "z": -0.20452497899532318,
+            "visibility": 0.1658201813697815
+        },
+        {
+            "x": 0.22500596940517426,
+            "y": -0.6759411692619324,
+            "z": -0.19060999155044556,
+            "visibility": 0.4038403332233429
+        },
+        {
+            "x": -0.14973480999469757,
+            "y": 0.07899855077266693,
+            "z": -0.20686829090118408,
+            "visibility": 0.17653624713420868
+        },
+        {
+            "x": 0.19461916387081146,
+            "y": -0.7166867852210999,
+            "z": -0.18476198613643646,
+            "visibility": 0.4167965054512024
+        },
+        {
+            "x": -0.13507433235645294,
+            "y": 0.05793099105358124,
+            "z": -0.22889411449432373,
+            "visibility": 0.227818101644516
+        },
+        {
+            "x": 0.22828033566474915,
+            "y": -0.6813740134239197,
+            "z": -0.16892069578170776,
+            "visibility": 0.41584351658821106
+        },
+        {
+            "x": -0.15053166449069977,
+            "y": 0.01436315756291151,
+            "z": -0.21875286102294922,
+            "visibility": 0.21966785192489624
+        },
+        {
+            "x": 0.11858057230710983,
+            "y": -0.012906516902148724,
+            "z": 0.05109376460313797,
+            "visibility": 0.002900355728343129
+        },
+        {
+            "x": -0.11877897381782532,
+            "y": -0.013493144884705544,
+            "z": -0.0467386320233345,
+            "visibility": 0.0022863310296088457
+        },
+        {
+            "x": 0.1578892320394516,
+            "y": -0.016950344666838646,
+            "z": -0.039437372237443924,
+            "visibility": 0.0013184779090806842
+        },
+        {
+            "x": 0.019235806539654732,
+            "y": -0.23786883056163788,
+            "z": -0.20171979069709778,
+            "visibility": 0.0005730757839046419
+        },
+        {
+            "x": 0.18140530586242676,
+            "y": 0.2419394999742508,
+            "z": 0.12489064037799835,
+            "visibility": 0.00007847072265576571
+        },
+        {
+            "x": 0.010746904648840427,
+            "y": 0.05246065929532051,
+            "z": -0.16790540516376495,
+            "visibility": 0.00001985680682992097
+        },
+        {
+            "x": 0.17302486300468445,
+            "y": 0.31745219230651855,
+            "z": 0.17406398057937622,
+            "visibility": 0.00006845188909210265
+        },
+        {
+            "x": -0.007531594485044479,
+            "y": 0.1323014199733734,
+            "z": -0.09503977000713348,
+            "visibility": 0.000035013523302040994
+        },
+        {
+            "x": 0.34015199542045593,
+            "y": -0.08086811751127243,
+            "z": -0.16546212136745453,
+            "visibility": 0.0005470696487464011
+        },
+        {
+            "x": 0.05440850928425789,
+            "y": -0.21028083562850952,
+            "z": -0.48815369606018066,
+            "visibility": 0.00017500318062957376
+        }
+    ],
+    "multiFaceGeometry": []
+}
