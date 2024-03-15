@@ -4,7 +4,7 @@ try {
     $projectDirs = Get-ChildItem . -Recurse -Filter tsconfig.json -Depth 1 | Select-Object DirectoryName;
 
     $projectJobs = $projectDirs | ForEach-Object -AsJob -Parallel { 
-        $name = Split-Path -Path  $_.DirectoryName -Leaf -Resolve;
+        # $name = Split-Path -Path  $_.DirectoryName -Leaf -Resolve;
         Set-Location $_.DirectoryName;
         Invoke-Command -ScriptBlock { npm run start:dev };
     }
