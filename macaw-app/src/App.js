@@ -18,16 +18,17 @@ function App() {
 
     orchestrator = new Orchestrator()
     orchestrator.onResult(onResults);
-    orchestrator.initialize();
 
-    const camera = new Camera(inputVideoRef.current, {
-      onFrame: async () => {
-        await orchestrator.processFrame(inputVideoRef.current);
-      },
-      width: 1280,
-      height: 720
+    orchestrator.initialize().then(() => {
+      const camera = new Camera(inputVideoRef.current, {
+        onFrame: async () => {
+          await orchestrator.processFrame(inputVideoRef.current);
+        },
+        width: 1280,
+        height: 720
+      });
+      camera.start();
     });
-    camera.start();
   };
 
 
