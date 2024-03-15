@@ -1,0 +1,68 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"dependsOrder": "parallel",
+			"dependsOn": [
+				"macaw-commons",
+				"macaw-features",
+				"macaw-inference",
+				"macaw-pose",
+				"macaw-orchestrator",
+			],
+			"group": "build",
+			"label": "Watch all"
+		},
+		{
+			"type": "typescript",
+			"tsconfig": "macaw-commons/tsconfig.json",
+			"option": "watch",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"group": "build",
+			"label": "macaw-commons",
+		},
+		{
+			"type": "typescript",
+			"tsconfig": "macaw-features/tsconfig.json",
+			"option": "watch",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"group": "build",
+			"label": "macaw-features"
+		},
+		{
+			"type": "typescript",
+			"tsconfig": "macaw-inference/tsconfig.json",
+			"option": "watch",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"group": "build",
+			"label": "macaw-inference"
+		},
+		{
+			"type": "typescript",
+			"tsconfig": "macaw-orchestrator/tsconfig.json",
+			"option": "watch",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"group": "build",
+			"label": "macaw-orchestrator"
+		},
+		{
+			"type": "typescript",
+			"tsconfig": "macaw-pose/tsconfig.json",
+			"option": "watch",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"group": "build",
+			"label": "macaw-pose"
+		}
+	]
+}
