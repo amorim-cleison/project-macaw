@@ -32,7 +32,7 @@ class PoseEstimator {
         })
     }
 
-    public initialize() {
+    public async initialize() {
     }
 
     public onPoseEstimated(listener: PoseEstimatedListener) {

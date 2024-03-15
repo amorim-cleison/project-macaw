@@ -16,6 +16,7 @@
   "dependencies": {
     "macaw-commons": "file:../macaw-commons",
     "macaw-features": "file:../macaw-features",
+    "macaw-inference": "file:../macaw-inference",
     "macaw-pose": "file:../macaw-pose"
   },
   "devDependencies": {

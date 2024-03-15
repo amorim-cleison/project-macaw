@@ -1,11 +1,13 @@
 import { PoseEstimator } from "macaw-pose";
-import { Featurizer, BodyFeatures } from 'macaw-features';
-import { Body } from 'macaw-commons';
+import { Featurizer } from 'macaw-features';
+import { Body, BodyFeatures } from 'macaw-commons';
+import { Inferencer } from 'macaw-inference';
 
 class Orchestrator {
 
     private poseEstimator: PoseEstimator;
     private featurizer: Featurizer;
+    private inferencer: Inferencer;
     private onResultListener: ResultListener | undefined;
 
     private lastPose?: Body = undefined;
@@ -14,10 +16,12 @@ class Orchestrator {
         this.featurizer = new Featurizer();
         this.poseEstimator = new PoseEstimator();
         this.poseEstimator.onPoseEstimated((result: Body, rawResult: Object) => this.runPipeline(result, rawResult));
+        this.inferencer = new Inferencer();
     }
 
-    public initialize() {
-        this.poseEstimator.initialize();
+    public async initialize() {
+        await this.poseEstimator.initialize();
+        await this.inferencer.initialize();
     }
 
     public onResult(listener: ResultListener) {
@@ -30,12 +34,13 @@ class Orchestrator {
         }
     }
 
-    private runPipeline(pose: Body, rawResult: Object) {
+    private async runPipeline(pose: Body, rawResult: Object) {
         // TODO: remove `rawResult` parameter
         // TODO: verify parameters
         const bodyFeatures = this.featurizer.extractFeatures(pose, this.lastPose);
+        const infereceResult = await this.inferencer.infer(bodyFeatures);
 
-        this.logDebug(bodyFeatures);
+        this.logDebug(bodyFeatures, infereceResult);
 
         if (this.onResultListener) {
             // TODO: review this argument passed
@@ -45,9 +50,11 @@ class Orchestrator {
         this.lastPose = pose;
     }
 
-    private logDebug(body: BodyFeatures) {
-        // console.debug(`Hand orientation: \t L => '${body.leftHand?.orientation?.value}' \t R => '${body.rightHand?.orientation?.value}'`);
-        console.debug(`Hand movement: \t\t L => '${body.leftHand?.movement?.value}' \t R => '${body.rightHand?.movement?.value}'`);
+    private logDebug(body: BodyFeatures, inferenceResult: string) {
+        console.log(`Hand orientation: \t L => '${body.leftHand?.orientation?.value}' \t R => '${body.rightHand?.orientation?.value}'`);
+        console.log(`Hand movement: \t\t L => '${body.leftHand?.movement?.value}' \t R => '${body.rightHand?.movement?.value}'`);
+     
+        console.log(`Inferenced: \t\t '${inferenceResult.substring(0, 100)}' ... `);
     }
 }
 

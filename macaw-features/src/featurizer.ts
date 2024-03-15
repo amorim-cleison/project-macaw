@@ -1,14 +1,13 @@
 // import Coordinate from '';
 
-import { Body, Dictionary, Hand, Side, Vector } from "macaw-commons";
-import { BodyFeatures, Feature, HandFeatures } from "./model/features";
+import { Body, DynamicObject, Hand, Side, Vector, BodyFeatures, Feature, HandFeatures } from "macaw-commons";
 
 
 class Featurizer {
 
     // Directions, according to user's perspective.
     // Index are: [negative, positive].
-    DIRECTIONS_LABELS: Dictionary<string[]> = {
+    DIRECTIONS_LABELS: DynamicObject<string[]> = {
         x: ["left", "right"],
         y: ["up", "down"],
         z: ["front", "body"]
