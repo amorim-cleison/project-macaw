@@ -8,7 +8,7 @@ class Featurizer {
     // Directions, according to user's perspective.
     // Index are: [negative, positive].
     DIRECTIONS_LABELS: DynamicObject<string[]> = {
-        x: ["left", "right"],
+        x: ["right", "left"],
         y: ["up", "down"],
         z: ["front", "body"]
     }

@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"dependsOrder": "parallel",
+			"dependsOrder": "sequence",
 			"dependsOn": [
 				"macaw-commons",
 				"macaw-features",
@@ -46,16 +46,6 @@
 		},
 		{
 			"type": "typescript",
-			"tsconfig": "macaw-orchestrator/tsconfig.json",
-			"option": "watch",
-			"problemMatcher": [
-				"$tsc-watch"
-			],
-			"group": "build",
-			"label": "macaw-orchestrator"
-		},
-		{
-			"type": "typescript",
 			"tsconfig": "macaw-pose/tsconfig.json",
 			"option": "watch",
 			"problemMatcher": [
@@ -64,5 +54,15 @@
 			"group": "build",
 			"label": "macaw-pose"
 		}
+		},
+		{
+			"type": "typescript",
+			"tsconfig": "macaw-orchestrator/tsconfig.json",
+			"option": "watch",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"group": "build",
+			"label": "macaw-orchestrator"
 	]
 }
