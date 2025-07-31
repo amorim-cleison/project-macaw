@@ -14,7 +14,7 @@
     "start:dev": "npx tsc --watch"
   },
   "devDependencies": {
-    "@types/node": "^20.11.27",
-    "typescript": "^5.4.2"
+    "@types/node": "^20.19.9",
+    "typescript": "^5.8.3"
   }
 }
