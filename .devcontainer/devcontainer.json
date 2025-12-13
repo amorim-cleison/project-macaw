@@ -8,6 +8,6 @@
             ]
         }
     },
-    "postCreateCommand": "./install-all.sh",
+    "postCreateCommand": "./setup.sh",
     "forwardPorts": [3000]
 }

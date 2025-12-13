@@ -10,4 +10,4 @@
 # done
 
 echo "Installing dependencies..."
-npm install .
+npm ci './app/macaw-app/'   # clean install

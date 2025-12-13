@@ -1,10 +1,5 @@
 {
   "dependencies": {
-    "macaw-app": "file:app/macaw-app",
-    "macaw-commons": "file:lib/macaw-commons",
-    "macaw-features": "file:lib/macaw-features",
-    "macaw-inference": "file:lib/macaw-inference",
-    "macaw-orchestrator": "file:lib/macaw-orchestrator",
-    "macaw-pose": "file:lib/macaw-pose"
+    "macaw-app": "file:app/macaw-app"
   }
 }

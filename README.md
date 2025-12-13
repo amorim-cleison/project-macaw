@@ -4,7 +4,7 @@
 ## Installing
 To install, run the script:
 ```ps
-./install-all.sh
+./setup.sh
 ```
 
 ## Running
