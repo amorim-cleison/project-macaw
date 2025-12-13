@@ -1,13 +1,9 @@
 #!/bin/bash
 
-# Find all package.json files and install dependencies
-# find ./**/*macaw-* -maxdepth 1 -name 'package.json' | while read -r package_file; do
-#     location=$(dirname "$package_file")
-#     name=$(basename "$location")
-    
-#     echo "Installing '$name'..."
-#     npm install $location
-# done
+AppDir='./app/macaw-app/'
 
 echo "Installing dependencies..."
-npm ci './app/macaw-app/'   # clean install
+cd "$AppDir" || exit 1
+
+# Try npm ci first (clean install), fall back to npm install if it fails
+npm ci || npm install

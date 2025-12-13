@@ -54,7 +54,7 @@ function App() {
             modelAssetPath: modelAssetPath,
             delegate: "GPU" // Tentativa de usar aceleração via GPU
           },
-          runningMode: 'VIDEO', // Modo para processamento em tempo real
+          runningMode: "VIDEO", // Modo para processamento em tempo real
           numHands: 2 // Detectar até 2 mãos
         });
 
