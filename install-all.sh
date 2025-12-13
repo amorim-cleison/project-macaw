@@ -1,10 +1,13 @@
 #!/bin/bash
 
 # Find all package.json files and install dependencies
-find . -maxdepth 5 -name package.json | while read -r package_file; do
-    location=$(dirname "$package_file")
-    name=$(basename "$location")
+# find ./**/*macaw-* -maxdepth 1 -name 'package.json' | while read -r package_file; do
+#     location=$(dirname "$package_file")
+#     name=$(basename "$location")
     
-    echo "Installing '$name'..."
-    (cd "$location" && npm install)
-done
+#     echo "Installing '$name'..."
+#     npm install $location
+# done
+
+echo "Installing dependencies..."
+npm install .
