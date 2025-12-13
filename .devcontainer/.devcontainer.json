@@ -6,5 +6,6 @@
                 "ms-vscode.vscode-typescript-next"
             ]
         }
-    }
+    },
+    "forwardPorts": [3000]
 }
