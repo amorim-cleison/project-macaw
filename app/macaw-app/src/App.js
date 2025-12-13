@@ -140,11 +140,11 @@ function App() {
 
     // Limpar o canvas a cada frame (necessário antes de desenhar)
     canvasCtx.clearRect(0, 0, canvas.width, canvas.height);
+    canvasCtx.save();
 
     // Flipar o canvas para simular um espelho (opcional)
-    canvasCtx.save();
-    canvasCtx.scale(-1, 1);
-    canvasCtx.translate(-canvas.width, 0);
+    // canvasCtx.scale(-1, 1);
+    // canvasCtx.translate(-canvas.width, 0);
 
     // 2.1 Desenhar o frame de vídeo atual no canvas
     // O MediaPipe pode fazer isso internamente, mas desenhar explicitamente permite 
