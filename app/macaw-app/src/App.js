@@ -3,9 +3,8 @@ import './App.css';
 import { useEffect, useRef, useState } from 'react';
 // import { POSE_CONNECTIONS, FACEMESH_TESSELATION, HAND_CONNECTIONS } from '@mediapipe/holistic';
 // import { Camera } from '@mediapipe/camera_utils';
-// import { drawConnectors, drawLandmarks } from '@mediapipe/drawing_utils';
-import { DrawingUtils } from '@mediapipe/drawing_utils';
-import { HandLandmarker, FilesetResolver } from '@mediapipe/tasks-vision';
+// import { drawConnectors, drawLandmarks } from '@mediapipe/drawing_utils';;
+import { HandLandmarker, FilesetResolver, DrawingUtils  } from '@mediapipe/tasks-vision';
 
 const modelAssetPath = 'https://storage.googleapis.com/mediapipe-assets/hand_landmarker.task';
 const VIDEO_WIDTH = 640;
