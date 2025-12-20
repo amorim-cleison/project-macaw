@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start React Dev Server",
+            "type": "shell",
+            "command": "BROWSER=none ${workspaceFolder}/run.sh",
+            "isBackground": true,
+            "problemMatcher": {
+                "pattern": {
+                    "regexp": "."
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".*Starting the development server.*|.*Compiling.*",
+                    "endsPattern": ".*Compiled successfully.*|.*webpack compiled.*|.*On Your Network.*"
+                }
+            }
+        }
+    ]
+}
