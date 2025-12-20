@@ -1,68 +1,21 @@
 {
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"type": "shell",
-			"dependsOrder": "sequence",
-			"dependsOn": [
-				"macaw-commons",
-				"macaw-features",
-				"macaw-inference",
-				"macaw-pose",
-				"macaw-orchestrator",
-			],
-			"group": "build",
-			"label": "Watch all"
-		},
-		{
-			"type": "typescript",
-			"tsconfig": "macaw-commons/tsconfig.json",
-			"option": "watch",
-			"problemMatcher": [
-				"$tsc-watch"
-			],
-			"group": "build",
-			"label": "macaw-commons",
-		},
-		{
-			"type": "typescript",
-			"tsconfig": "macaw-features/tsconfig.json",
-			"option": "watch",
-			"problemMatcher": [
-				"$tsc-watch"
-			],
-			"group": "build",
-			"label": "macaw-features"
-		},
-		{
-			"type": "typescript",
-			"tsconfig": "macaw-inference/tsconfig.json",
-			"option": "watch",
-			"problemMatcher": [
-				"$tsc-watch"
-			],
-			"group": "build",
-			"label": "macaw-inference"
-		},
-		{
-			"type": "typescript",
-			"tsconfig": "macaw-pose/tsconfig.json",
-			"option": "watch",
-			"problemMatcher": [
-				"$tsc-watch"
-			],
-			"group": "build",
-			"label": "macaw-pose"
-		}
-		},
-		{
-			"type": "typescript",
-			"tsconfig": "macaw-orchestrator/tsconfig.json",
-			"option": "watch",
-			"problemMatcher": [
-				"$tsc-watch"
-			],
-			"group": "build",
-			"label": "macaw-orchestrator"
-	]
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start React Dev Server",
+            "type": "shell",
+            "command": "BROWSER=none ${workspaceFolder}/run.sh",
+            "isBackground": true,
+            "problemMatcher": {
+                "pattern": {
+                    "regexp": "."
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".*Starting the development server.*|.*Compiling.*",
+                    "endsPattern": ".*Compiled successfully.*|.*webpack compiled.*|.*On Your Network.*"
+                }
+            }
+        }
+    ]
 }

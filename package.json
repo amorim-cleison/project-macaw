@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "macaw-app": "file:app/macaw-app"
+  }
+}

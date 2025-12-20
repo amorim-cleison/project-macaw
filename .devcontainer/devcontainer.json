@@ -3,9 +3,11 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-vscode.vscode-typescript-next"
+                "ms-vscode.vscode-typescript-next",
+                "github.copilot"
             ]
         }
     },
+    "postCreateCommand": "./setup.sh",
     "forwardPorts": [3000]
 }
